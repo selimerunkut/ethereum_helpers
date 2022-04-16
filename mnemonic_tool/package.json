@@ -1,0 +1,18 @@
+{
+  "name": "mnemonic_tool",
+  "version": "1.0.0",
+  "description": "derive the private keys from that mnemonic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bip39": "^3.0.3"
+  },
+  "dependencies": {
+    "ethereumjs-wallet": "^1.0.1",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
